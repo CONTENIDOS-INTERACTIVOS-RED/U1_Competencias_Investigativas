@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Principios básicos de la investigación científica',
   },
   menuPrincipal: {
     menu: [
@@ -31,44 +31,21 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Introducción a la investigación científica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: '1.1.	Definición y concepto de investigación científica',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo:
+              'Acordeón1.2.	Importancia de la investigación en diversas disciplinas',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -76,38 +53,14 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Método científico',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Características y etapas del método científico',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -115,20 +68,39 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Enfoques de investigación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Carrusel',
+            titulo: 'Investigación cualitativa',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tablas',
+            titulo: 'Investigación cuantitativa',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Investigación mixta',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Tipos de investigación',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo:
+              'Aplicación de los principios de la investigación científica en diferentes campos',
+            hash: 't_3_5',
           },
         ],
       },
@@ -167,112 +139,71 @@ export default {
       },
     ],
   },
-  referencias: [
-    {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
-    },
-  ],
+  referencias: {
+    referencia:
+      'Medina, M., Rojas, R., y Bustamante, W. (2023). Metodología de la investigación: Técnicas e instrumentos de investigación. Instituto Universitario de Innovación Ciencia y Tecnología Inudi Perú.',
+    link: 'https://doi.org/10.35622/inudi.b.080',
+  },
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Enfoque cualitativo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Metodología de investigación que se centra en comprender la realidad social desde una perspectiva subjetiva, recopilando datos descriptivos sobre experiencias y percepciones.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Enfoque cuantitativo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Metodología que se basa en la medición de variables y análisis estadístico para verificar teorías y establecer relaciones objetivas entre fenómenos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Ética en investigación',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Conjunto de principios morales que guían la conducta del investigador y establecen límites entre la actividad investigativa y la aplicación de métodos.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Evidencia empírica',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Se refiere a la información, datos u observaciones obtenidas a través de experiencias directas, observación sistemática o experimentación controlada que se utiliza para apoyar o refutar una hipótesis, teoría o afirmación científica.',
     },
     {
-      termino: 'Moda',
+      termino: 'Hipótesis',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Explicaciones tentativas o predicciones sobre el fenómeno estudiado que establecen relaciones entre variables y guían el diseño de la investigación.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Investigación científica',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso que implica la búsqueda sistemática de conocimientos mediante métodos específicos y reflexión sobre la validez de los resultados.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Investigación mixta',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Enfoque metodológico que combina elementos cualitativos y cuantitativos para obtener una comprensión más completa de los fenómenos estudiados.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Método científico',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Conjunto de principios y reglas sistemáticas que guían el proceso investigativo, desde la identificación de un problema hasta la comunicación de resultados.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Objetividad',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Principio que busca eliminar sesgos personales en la investigación y mantener una perspectiva neutral en la recolección y análisis de datos.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Reproducibilidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Característica que permite que los resultados de una investigación puedan ser replicados por otros investigadores bajo condiciones similares.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Sistematicidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Principio que implica seguir un orden lógico y estructurado en el proceso de investigación.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Verificabilidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Principio que establece que los resultados de una investigación deben poder ser comprobados mediante evidencia empírica.',
     },
   ],
   complementario: [

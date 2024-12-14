@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.descripcion.mb-4 La investigación científica es el proceso sistemático que utiliza principios como objetividad, reproducibilidad y verificabilidad para generar conocimiento en diversos campos. Estos principios guían desde la identificación de problemas hasta la formulación de hipótesis, recolección y análisis de datos, asegurando resultados válidos y confiables. Según el enfoque (cualitativo, cuantitativo o mixto), y el tipo (básica, aplicada, formativa), la investigación aborda fenómenos desde perspectivas teóricas y prácticas. Su flexibilidad permite adaptarse a diferentes disciplinas, como medicina, ciencias sociales e ingeniería, promoviendo avances científicos, innovación y desarrollo en la sociedad.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Quien persiste en aprender y descubrir, transforma el mundo con conocimiento.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -146,11 +146,11 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    background-color: #5A94AD !important
+    color: white !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #31505E !important
   &:hover
     .icon
       transform: scale(1.06)

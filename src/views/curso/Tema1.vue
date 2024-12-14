@@ -1,162 +1,117 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'1. Introducción a la investigación científica'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
+
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 La ciencia se puede entender como el conjunto coherente de conocimientos relativos a una determinada área de la realidad que se obtienen mediante el empleo de un método y un lenguaje adecuados. Que se obtengan conocimientos en ese ámbito implica que se realizan investigaciones y en estas se ha seguido un determinado método. La idea de ciencia está ligada a la de método. 
+        span La investigación científica es una actitud. Una actitud de compromiso existencial con la verdad, en contraposición con el escepticismo; una actitud humilde de aceptación de las propias limitaciones en el conocer real, en oposición al dogmatismo de quien no reconoce límites para saber. Es una actitud de ámbito personal e intransmisible o imitable. Es incompatible con la pura fe y con el puro interés. La ciencia se fundamenta y se lleva a cabo desde el conocimiento o desde la “ignorancia y sorpresa”, pero no puede nacer de la fe ni del puro interés.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
+
     #t_1_1.titulo-segundo
       div.d-flex
         span.me-3 1.1  
-        h2 Título de segundo
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        p Desde los inicios de la humanidad, las reglas han sido un elemento fundamental para el desarrollo de las sociedades. El Derecho, en este contexto, se presenta como una herramienta indispensable para el buen funcionamiento de la convivencia. En esta primera unidad, se profundizará en el concepto de Derecho, su propósito y origen, así como en el proceso de creación de normas que regulan nuestras actividades diarias, las relaciones entre individuos y el Estado, y las normas que operan en el ámbito global.
-      .col-md-6.col-lg-5
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure.mt-4.mt-lg-0
-          img(src='@/assets/componentes/banner-img-1.png', alt='Texto que describa la imagen')
-    #t_1_2.titulo-segundo.color-secundario
-      h2 1.2  Acordeón
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        AcordionA(tipo="b")
-          .row(titulo="Titulo item 1")
-            .col
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        h2 Definición y concepto de investigación científica
+    p.mb-4 La investigación científica, además de considerar la naturaleza de los objetos de estudio, incluye una reflexión sobre los métodos empleados y la validez de los resultados obtenidos. Para desarrollar este proceso, es fundamental comprender sus elementos constitutivos, que se presentan a continuación de manera estructurada.
 
-          div(titulo="Titulo item 2")
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .col-md-6.col-lg-5.col-xl-4.mx-xl-auto
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure
-          img(src='@/assets/componentes/banner-img-2.png', alt='Texto que describa la imagen')
-    #t_1_3.titulo-segundo.color-secundario.pb-5
-      h2 1.3  Slider
-    .row.position-relative.mb-5
-      img.bg-img-1(src='../../assets/componentes/background-test.svg', alt='Texto que describa la imagen')
-      SlyderA(tipo="b").bg-white
-        .row.p-4.p-md-5
-          .col-md-6.col-lg-7.mb-4.mb-md-0
-            p.text-bold Coercibilidad
-            p El derecho puede imponerse por la fuerza si es necesario. Cuando una persona incumple una norma jurídica, puede ser sancionada mediante multas, penas de prisión o la confiscación de bienes. Esta coercibilidad distingue al derecho de otros sistemas normativos que no cuentan con mecanismos de imposición obligatoria.
-        
-          .col-md-6.col-lg-5
-            figure
-              img(src='@/assets/componentes/banner-img-3.png', alt='Texto que describa la imagen')
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-    #t_1_4.titulo-segundo.color-secundario.pt-5
-      h2 1.4  Pestañas
     .row.mb-5
-      TabsC.color-primario
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Jerarquía normativa")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Sentido amplio de la norma")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
-              figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-    #t_1_5.titulo-segundo.color-secundario.pt-5
-      h2 1.5  Infografia interactiva
-      
-    .row.mb-5.justify-content-center.img-infografica.p-md-5
-      .col-12.col-md-9
-        ImagenInfografica.color-secundario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/componentes/test-img-infogr.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-7(data-aos="fade-left")
+        p.mb-4 A continuación, se describen los aspectos esenciales que componen la investigación científica:
+        AcordionA(tipo="b")
+          .div(titulo="Objeto o fenómeno de interés")
+            p Se refiere a las inquietudes que la investigación busca resolver. Incluye entidades específicas hacia las cuales se dirige el estudio. Estas propiedades suelen no ser observables directamente.
+          .div(titulo="Métodos de recolección de datos")
+            p Incluyen técnicas diseñadas para recopilar información de manera sistemática, adecuada a los objetivos y características de cada investigación. Ejemplos: encuestas, entrevistas y experimentos.
+          .div(titulo="Análisis de datos")
+            p Proceso que organiza, interpreta y da sentido a los datos recopilados para extraer conclusiones significativas y fundamentadas.
+          .div(titulo="Validez y confiabilidad")
+            p Garantizan que los resultados sean precisos, relevantes y replicables, permitiendo su aplicación en contextos similares.
 
-          .tarjeta.color-acento-botones.p-3(x="9%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+    .row.mb-4
+      .col-10.mx-auto
+        .bg-rojo.p-4
+          span Estos elementos garantizan un desarrollo riguroso del proceso investigativo, asegurando la obtención de conclusiones fundamentadas y útiles.
 
-          .tarjeta.color-acento-botones.p-3(x="91%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="91%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-          .tarjeta.color-acento-botones.p-3(x="9%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    
-    #t_1_6.titulo-segundo
+    #t_1_2.titulo-segundo
       div.d-flex
-        span.me-3 1.6  
-        h2 Linea de tiempo D
+        span.me-3 1.2  
+        h2 Importancia de la investigación en diversas disciplinas
 
-    LineaTiempoD.color-secundario.mb-5
-      p(numero="1" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-      p(numero="2" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-      p(numero="3" titulo="Praesent luctus") Lorem ipsum dolor sit amet, 
-    
-    #t_1_7.titulo-segundo
-      div.d-flex
-        span.me-3 1.7
-        h2 Tarjeta de audio
-    
-      TarjetaAudio.color-primario.bg-white.mb-5(
-        texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
-        tiempo
-        :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
-        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      )
+    p.mb-4 La investigación es esencial en todas las áreas del conocimiento. Desde las ciencias experimentales hasta las ciencias sociales, proporciona herramientas para explorar, explicar y aplicar conceptos clave. Su impacto abarca desde descubrimientos innovadores hasta el diseño de soluciones prácticas.
+
+    .row.mb-4
+      ImagenInfografica.color-secundario.mb-5.d-md-none.col-10.mx-auto
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
+
+        .tarjeta.bg-rojo.p-4(x="90%" y="10.5%" numero="+")
+          .h5.mb-2 Ciencias experimentales
+          p Desarrollo de nuevos medicamentos, tecnologías avanzadas y soluciones ambientales mediante la experimentación y observación rigurosas.
+        .tarjeta.bg-rojo.p-4(x="10%" y="30%" numero="+")
+          .h5.mb-2 Ciencias sociales
+          p Análisis del comportamiento humano, diseño de políticas públicas, comprensión de fenómenos sociales y culturales.
+        .tarjeta.bg-rojo.p-4(x="86%" y="50%" numero="+")
+          .h5.mb-2 Matemáticas
+          p Creación y validación de teorías abstractas aplicables en campos como la física, la economía y la informática.
+        .tarjeta.bg-rojo.p-4(x="11%" y="69.7%" numero="+")
+          .h5.mb-2 Medicina
+          p Mejora de la prevención, diagnóstico y tratamiento de enfermedades a través de investigaciones clínicas y epidemiológicas.
+        .tarjeta.bg-rojo.p-4(x="80%" y="89.5%" numero="+")
+          .h5.mb-2 Educación
+          p Innovación en métodos pedagógicos, desarrollo curricular y herramientas para fomentar aprendizajes más efectivos.
+    ImagenInfografica.color-secundario.mb-5.d-none.d-md-block
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
+
+      .tarjeta.bg-rojo.p-4(x="10.5%" y="85%" numero="+")
+        .h5.mb-2 Ciencias experimentales
+        p Desarrollo de nuevos medicamentos, tecnologías avanzadas y soluciones ambientales mediante la experimentación y observación rigurosas.
+      .tarjeta.bg-rojo.p-4(x="30.3%" y="19%" numero="+")
+        .h5.mb-2 Ciencias sociales
+        p Análisis del comportamiento humano, diseño de políticas públicas, comprensión de fenómenos sociales y culturales.
+      .tarjeta.bg-rojo.p-4(x="50%" y="72%" numero="+")
+        .h5.mb-2 Matemáticas
+        p Creación y validación de teorías abstractas aplicables en campos como la física, la economía y la informática.
+      .tarjeta.bg-rojo.p-4(x="69.6%" y="27.3%" numero="+")
+        .h5.mb-2 Medicina
+        p Mejora de la prevención, diagnóstico y tratamiento de enfermedades a través de investigaciones clínicas y epidemiológicas.
+      .tarjeta.bg-rojo.p-4(x="89.4%" y="72%" numero="+")
+        .h5.mb-2 Educación
+        p Innovación en métodos pedagógicos, desarrollo curricular y herramientas para fomentar aprendizajes más efectivos.
+
+    .row.mb-5
+      .col-10.mx-auto
+        .bg-morado.p-4
+          span La investigación fomenta el pensamiento crítico, la innovación y el desarrollo de conocimientos que benefician tanto a la comunidad científica como a la sociedad en general.
 
     .bg-full-width.border-top-9-azul
-      .px-4.p-md-5
+      .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
+        
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://doi.org/10.31876/is.v3i2.5") Chinche Duicela, J., Ramón Pozo, J., y López Aguirre, J. F. (2020). El Método Científico: Análisis de la literatura. Revista Imaginario Social, 3(2).
+            
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://doi.org/10.35383/educare.v8i1.397") Campos Olazabal, P. J. (2020). La importancia de la investigación formativa como estrategia de aprendizaje. Educare Et Comunicare.
+            
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=xPjRiNPu038") SFPIE UV (2020). La investigación y su importancia. Inversión en I+D [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+
 </template>
 
 <script>
