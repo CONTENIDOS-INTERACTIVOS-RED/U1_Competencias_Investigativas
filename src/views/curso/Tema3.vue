@@ -112,7 +112,7 @@
           img.h-100(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
         .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
           h2.mb-4.pb-2.me-auto Ética en la investigación científica
-          p.mb-5 ¿Cómo influyen los principios éticos en la investigación científica y en la relación entre ciencia y sociedad? En el documento Ética en la investigación científica , se exploran conceptos clave como respeto, honestidad y accesibilidad, destacando su importancia en la recolección y análisis de datos. Se abordan prácticas como el consentimiento informado, la confidencialidad y la objetividad en el análisis, así como desafíos emergentes en el manejo de big data. Le invitamos a consultar el documento para reflexionar sobre la relevancia de la ética en la producción de conocimiento responsable y su impacto social.
+          p.mb-5 ¿Cómo influyen los principios éticos en la investigación científica y en la relación entre ciencia y sociedad? En el documento Ética en la investigación científica, se exploran conceptos clave como respeto, honestidad y accesibilidad, destacando su importancia en la recolección y análisis de datos. Se abordan prácticas como el consentimiento informado, la confidencialidad y la objetividad en el análisis, así como desafíos emergentes en el manejo de big data. Le invitamos a consultar el documento para reflexionar sobre la relevancia de la ética en la producción de conocimiento responsable y su impacto social.
           a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ética en la investigación científica.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ética en la investigación científica 
@@ -217,7 +217,7 @@
               p.mb-4 Conectan con el desarrollo de soluciones tecnológicas y materiales, asegurando estándares de calidad y seguridad.
 
               p.text-bold.mb-1 Ejemplo:
-              span  Al diseñar un material resistente, la sistematicidad en la experimentación y la reproducibilidad de resultados garantizan su fabricación a escala y confiabilidad en aplicaciones industriales
+              span  Al diseñar un material resistente, la sistematicidad en la experimentación y la reproducibilidad de resultados garantizan su fabricación a escala y confiabilidad en aplicaciones industriales.
             .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
               figure
                 img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
@@ -248,6 +248,11 @@
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>           
 </template>
 
 <script>
@@ -257,6 +262,150 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Investigación y Competencias Profesionales',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'La investigación desarrolla habilidades transferibles valoradas en el ámbito profesional, además, cuando un estudiante participa en proyectos de investigación fortalece competencias como el análisis crítico y la resolución de problemas. ¿Cuál es el principal beneficio de la investigación para el futuro profesional?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Eliminar la necesidad de continuar aprendiendo después de la universidad',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Garantizar un puesto de trabajo inmediato y bien pago al graduarse',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Desarrollar competencias altamente demandadas en el mercado laboral',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Asegurar un empleo en puestos de alta gerencia al terminar la carrera',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'La investigación científica es un proceso sistemático y empírico que busca expandir el conocimiento humano, esta se basa en la observación, el razonamiento lógico y la verificación de hipótesis mediante el análisis crítico de la información y la interpretación objetiva de los resultados. ¿Por qué es crucial la objetividad en el proceso de investigación científica?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Para minimizar sesgos y producir resultados confiables y reproducibles',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Para producir resultados que apoyen exclusivamente teorías existentes',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Para desarrollar tecnologías comerciales y de forma inmediata',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Para limitar la investigación a temas que generen consenso universal',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'Se trata de un enfoque pedagógico que integra la investigación en el proceso de enseñanza-aprendizaje. Busca desarrollar habilidades investigativas en los estudiantes desde etapas tempranas de su ruta académica. Esto corresponde al concepto de:',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Investigación Académica', esCorrecta: false },
+            { id: 'b', texto: 'Investigación Formativa', esCorrecta: true },
+            { id: 'c', texto: 'Investigación Científica', esCorrecta: false },
+            { id: 'd', texto: 'Investigación Empírica', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'En el ámbito científico, existen diferentes tipos de investigación. La investigación básica, tiene características y objetivos específicos que la distinguen de otros tipos de investigación. ¿Cuál es la definición más precisa de "investigación básica"?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Investigación centrada en experimentos realizados exclusivamente en laboratorios universitarios',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Investigación que trata estudios que buscan resolver problemas concretos en la industria',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Tipo de investigación que siempre resulta en aplicaciones tecnológicas directas en campo',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Investigación centrada en ampliar el conocimiento teórico sin un fin práctico inmediato',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'La investigación científica se puede categorizar en diferentes tipos según sus objetivos y metodologías. Este tipo de investigación se distingue por su enfoque práctico y que aporta soluciones reales que son adoptadas por la población de estudio. Lo anterior corresponde a la definición de:',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Investigación Básica', esCorrecta: false },
+            { id: 'b', texto: 'Investigación Académica', esCorrecta: false },
+            { id: 'c', texto: 'Investigación Aplicada', esCorrecta: true },
+            { id: 'd', texto: 'Investigación Empírica', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

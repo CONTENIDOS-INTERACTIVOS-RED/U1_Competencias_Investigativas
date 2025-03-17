@@ -83,6 +83,7 @@
                   p.mb-1 ● Diseño de instrumentos.
                   p.mb-1 ● Selección de métodos observacionales.
                   p.mb-1 ● Implementación de estudios.
+                  p.mb-1 ● Recolección de datos.
             .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
               figure
                 img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
